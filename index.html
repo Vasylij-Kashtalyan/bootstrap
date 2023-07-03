@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;
+  800&display=swap" rel="stylesheet">
+
+  <link href="./css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/styler.css">
+</head>
+<body>
+  
+  <div class="container main-box" >
+    <div class="row">
+    
+      
+    <!-- -------------Лівий бокс-------------- -->
+      <div class="col-3 left-col">
+      
+          <ul class="left-col-list">
+            <li class="list-group-item list-item">
+              <svg class="item-icon" width="20" height="21">
+                <use href="./img/symbol-left.svg#icon-home-outline"></use>
+              </svg>
+              <span>Головна</span>
+            </li>
+
+            <li class="list-group-item list-item">
+              <svg class="item-icon" width="20" height="21">
+                <use href="./img/symbol-left.svg#icon-chart"></use>
+              </svg>
+              <span>Сторінка1</span></li>
+
+            <li class="list-group-item list-item">
+              <svg class="item-icon" width="20" height="21">
+                <use href="./img/symbol-left.svg#icon-stack"></use>
+              </svg>
+              <span>Сторінка2</span></li>
+            <li class="list-group-item list-item">
+              <svg class="item-icon" width="20" height="21">
+                <use href="./img/symbol-left.svg#icon-library_add_check"></use>
+              </svg>
+              <span>Сторінка3</span></li>
+          </ul>
+
+          <ul class="left-col-list">
+            <li class="list-group-item list-item">
+              <svg class="item-icon" width="20" height="21">
+                <use href="./img/symbol-left.svg#icon-settings"></use>
+              </svg>
+              <span>Налаштування</span>
+            </li>
+          </ul>
+
+      </div>
+
+    <!-- -------------Правий бокс--------------       -->
+      <div div class="col-9 rigth-col">
+        <div class="row box-start">
+            <h1 class="text">Start</h1>
+        </div>
+<!-- ----------------Стан------------- -->
+        <div class="row rigth-box">
+          <ul class="rigth-col-list">
+            <li class="list-group-item rigth-list-item">
+
+              <div class="rigth-list-box-svg util-svg">
+                <svg class="rigth-circle util-circle" width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.
+                w3.org/2000/svg">
+                  <circle cx="36" cy="36" r="36" />
+                </svg>
+              </div>
+              <span class="state util-state">Стан1</span>
+            </li>
+            
+            
+            <li class="list-group-item rigth-list-item">
+              <div class="rigth-list-box-svg util-svg">
+                <svg class="rigth-circle util-circle" width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.
+                w3.org/2000/svg">
+                  <circle cx="36" cy="36" r="36" />
+                </svg>
+              </div>
+              <span class="state util-state">Стан2</span>
+            </li>
+            
+            <li class="list-group-item rigth-list-item">
+              <div class="rigth-list-box-svg">
+                <svg class="rigth-circle" width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/
+                svg">
+                  <circle cx="36" cy="36" r="36" />
+                </svg>
+              </div>
+              <span class="state">Стан3</span>
+            </li>
+            
+            <li class="list-group-item rigth-list-item">
+              <div class="rigth-list-box-svg">
+                <svg class="rigth-circle" width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/
+                svg">
+                  <circle cx="36" cy="36" r="36" />
+                </svg>
+              </div>
+              <span class="state ">Стан4</span>
+            </li>
+            
+            <li class="list-group-item rigth-list-item">
+              <div >
+                <svg class="rigth-circle" width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/
+                svg">
+                  <circle cx="36" cy="36" r="36" />
+                </svg>
+              </div>
+              <span class="state">Стан5</span>
+            </li>
+          </ul>
+        </div>
+<!-- ----------------Інформація------------- -->
+        <div class="row rigth-box-info">
+          <div class="col rigth-box-col">
+
+            <h2 class="information">Information</h2>
+            <p class="info-text">Info Number:   <span>903049</span></p>
+            <p class="info-text">Pick up Place: <span>Sweden</span></p>
+          </div>
+
+          <div class="col rigth-box-col box-truck">
+            <div class="wrap-truck">
+                <div class="box-text">
+                  <h2>We are here</h2>
+                  <p>Long time to go</p>
+                </div>
+                <img src="./img/Truck - 1 1.png" alt="">
+            </div>
+          </div>
+        </div>
+
+<!-- ----------------Форма------------- -->
+        <div class="row box-forma">
+          <div class="col wrap-forma">
+            <form class="row g-3 needs-validation" novalidate>
+
+              <h2 class="information">Перезамовте Багаж</h2>
+
+            <label class="label" for="">Дропдаун</label>
+            <select class="input" type="hidden " placeholder="Select option">
+              <option >Select option</option>
+            </select>
+
+              <label class="label" for="">Дропдаун</label>
+              <select class="input" >
+                <option >Select option</option>
+              </select>
+            
+                <button class="forma-btn" type="submit">Done</button>
+             
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+</div>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
